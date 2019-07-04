@@ -21,7 +21,7 @@ sudo kubectl create -f elk.yaml
 Note: we have map elk.myapp.ai IP to 173.116.122.24 from ingress controller
 To check the kibana dashboard url elk.myapp.ai:80
 
-***command to check status:
+***command to check status of resources:
 
 sudo kubectl get svc
 sudo kubectl get deploy
